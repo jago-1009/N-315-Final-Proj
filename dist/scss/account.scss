@@ -1,0 +1,134 @@
+.account-modal {
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+	width: 345px;
+	height: 615px;
+	position: absolute;
+	z-index: 9999;
+	background-color: #fff;
+	top: 100px;
+	right: 150px;
+	.title-holder {
+		display: flex;
+		margin-left: 10px;
+		margin-top: 20px;
+		.close-button {
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		h3 {
+			padding-bottom: 20px;
+		}
+	}
+	.switch-holder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.signinswitch {
+		display: flex;
+		width: 90%;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+
+		height: 40px;
+	}
+	.sign-in {
+		display: none;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-direction: column;
+		.sign-in-input {
+			width: 90%;
+			height: 50px;
+			margin-top: 10px;
+		}
+		input {
+			margin: 0 auto;
+		}
+	}
+	.sign-up {
+		display: none;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-direction: column;
+		.sign-in-input {
+			width: 90%;
+			height: 50px;
+			margin-top: 10px;
+		}
+		input {
+			margin: 0 auto;
+		}
+	}
+	.log-out-holder {
+		display: none;
+		align-items: center;
+		justify-content: space-evenly;
+		#log-out-button {
+			height: 30px;
+			border-radius: 30px;
+			background-color: rgb(59, 43, 47);
+			color: white;
+		}
+	}
+	.keep-signed-in-holder {
+		margin-left: 30px;
+		display: flex;
+		align-self: flex-start;
+		label {
+			width: 400px;
+		}
+	}
+	button {
+		width: 90%;
+	}
+	.register-buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		button {
+			border-radius: 30px;
+			margin-top: 20px;
+			height: 40px;
+			border: 2px solid rgb(210, 210, 210);
+			background-color: #fff;
+		}
+	}
+	.login-btn {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 145px;
+		height: 40px;
+		cursor: pointer;
+		background-color: rgb(236, 233, 228);
+	}
+	.signup-btn {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 145px;
+		height: 40px;
+		cursor: pointer;
+		background-color: rgb(236, 233, 228);
+	}
+	.sign-in-button {
+		cursor: pointer;
+		height: 36px;
+		border-radius: 30px;
+		background-color: rgb(59, 43, 47);
+		color: white;
+	}
+	.info-sign-in {
+		width: 75%;
+		height: 139px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		background-color: rgb(243, 243, 243);
+	}
+}

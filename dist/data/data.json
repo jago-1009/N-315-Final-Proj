@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "name": "Keurig® K-Elite® Single Serve Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Elite-Single-Serve-Coffee-Maker_5000359832_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "Keurig® K-Select® Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Select-Coffee-Maker_5000359828_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+      
+    },
+    {
+      "name": "K-Duo® Special Edition Single Serve & Carafe Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Duo-SE-Single-Serve-Carafe-Coffee-Maker_5000362326_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "K-Slim® Single Serve Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Slim-Single-Serve-Coffee-Maker_5000363760_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "K-Duo Plus® Single Serve & Carafe Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Duo-Plus-Single-Serve-Carafe-Coffee-Maker_5000363818_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "K-Café® SMART Single Serve Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Cafe-SMART-Coffee-Latte-Cappuccino-Maker_5000365485_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "K-Iced™ Single Serve Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/k-iced-single-serve-coffee-maker_5000371871_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "Keurig® K-Café® Barista Bar Single Serve Coffee Maker and Frother",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Cafe-Barista-Bar_5000374606_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "Keurig® K-Classic® Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K50-Coffee-Maker_5000204441_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    },
+    {
+      "name": "Keurig® K-Supreme® Single Serve Coffee Maker",
+      "imgURL": "https://images.keurig.com/is/image/keurig/K-Supreme-Single-Serve-Coffee-Maker_5000368401_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+      "price": 49.99
+    }
+  ]
+}

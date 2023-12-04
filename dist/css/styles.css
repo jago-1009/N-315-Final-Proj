@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.advertisement-top {
+  position: relative;
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  background-color: #3d5a7b;
+  color: white;
+  font-size: 14px;
+}
+.advertisement-top a {
+  color: white;
+  text-decoration: underline;
+}
+.advertisement-top .ad1 {
+  font-weight: 400;
+  text-align: left;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.advertisement-top .ad2 {
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.advertisement-top .ad3 {
+  display: inline;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.advertisement-top .close-button {
+  position: absolute;
+  top: 10px;
+  bottom: 0px;
+  right: 20px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.nav-bar {
+  background-color: #ece9e4;
+  width: 100%;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar .nav-holder {
+  margin-top: 20px;
+}
+.nav-bar .nav-holder .nav-bar-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-bar .nav-holder .nav-bar-top .logo {
+  background-image: url(../assets/img/clear-Logo.png);
+  width: 175px;
+  height: 30px;
+  z-index: 999;
+}
+.nav-bar .nav-holder .nav-bar-top .search-bar-block i {
+  position: relative;
+  left: 50px;
+  z-index: 9900;
+  font-size: 30px;
+  top: 5px;
+}
+.nav-bar .nav-holder .nav-bar-top .search-bar-block .search-bar {
+  position: relative;
+  height: 40px;
+  width: 620px;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+}
+.nav-bar .nav-holder .nav-bar-top .search-bar-block .search-bar::placeholder {
+  position: relative;
+  left: 50px;
+}
+.nav-bar .nav-holder .nav-bar-top .icon-block {
+  font-size: 0.875rem;
+  width: 406px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-bar .nav-holder .nav-bar-top .icon-block i {
+  font-size: 25px;
+  text-align: center;
+}
+.nav-bar .nav-holder .nav-bar-top .icon-block .cart-length {
+  display: none;
+  width: 20px;
+  height: 20px;
+  color: white;
+  position: relative;
+  background-color: rgb(71, 48, 54);
+  text-align: center;
+  border-radius: 50%;
+  left: 15px;
+  top: 10px;
+}
+.nav-bar .nav-holder .nav-bar-top .icon-block .support-icon,
+.nav-bar .nav-holder .nav-bar-top .icon-block .account-icon,
+.nav-bar .nav-holder .nav-bar-top .icon-block .cart-icon {
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar .nav-holder .nav-bar-top .icon-block .cart-icon a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar .nav-holder .nav-bar-top .icon-block .account-icon a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar .nav-holder .nav-bar-bottom {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-bar .nav-holder .nav-bar-bottom .links-holders {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-bar .nav-holder .nav-bar-bottom .links-holders .deals {
+  color: #c8102e !important;
+}
+
+.advertisement-bottom {
+  width: 100%;
+  height: 72.67px;
+  background-color: rgb(71, 48, 54);
+}
+.advertisement-bottom .ads-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.advertisement-bottom .ads-holder .msg {
+  width: 173px;
+  margin: 0 auto;
+  text-align: center;
+  height: 45px;
+}
+.advertisement-bottom .ads-holder .msg a {
+  text-decoration: underline;
+  color: white;
+}
+.advertisement-bottom .ads-holder .ad1,
+.advertisement-bottom .ads-holder .ad2,
+.advertisement-bottom .ads-holder .ad3 {
+  width: 335px;
+  border-right: 1px solid white;
+}
+
+.home-advertisement {
+  width: 95%;
+  margin: 0 auto;
+  height: 220px;
+  background-image: url(../assets/img/CLP-Banner-CM-1440.webp);
+  background-size: contain;
+  margin-top: 20px;
+}
+
+#home-products {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 280px;
+  height: 615px;
+  text-align: left;
+}
+.product-card .product-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.product-card .product-img img {
+  width: 213px;
+  height: 263px;
+  object-fit: cover;
+}
+.product-card .product-text {
+  margin-left: 10px;
+}
+
+.product-card:hover {
+  height: 650px;
+}
+.product-card:hover .buyBtn {
+  display: block;
+}
+
+.buyNow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 100%;
+}
+.buyNow .buyBtn {
+  cursor: pointer;
+  display: none;
+  border: 2px solid goldenrod;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  height: 50px;
+  width: 90%;
+}
+
+.footer {
+  color: white;
+  height: 600px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(71, 48, 54);
+  height: 60px;
+}
+.footer .top-bar i {
+  font-size: 30px;
+}
+.footer .top-bar .left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer .top-bar .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footer .top-bar .right .socials i {
+  margin-left: 10px;
+}
+.footer .middle-bar {
+  font-weight: 100;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.footer .middle-bar li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.footer .middle-bar li .signup {
+  height: 30px;
+}
+.footer .middle-bar li .signupBtn {
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#cart-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#cart-products .shopping-cart {
+  display: none;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+#cart-products .my-product-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#cart-products .shopping-cart-holder {
+  min-height: 271px;
+  width: 870px;
+  background-color: #e7e4df;
+  border-radius: 30px;
+}
+#cart-products .cart-subtotal {
+  margin: 0 auto;
+  width: 275px;
+  height: 393px;
+}
+#cart-products .cart-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#cart-products .cart-card .cart-img {
+  height: 113px;
+  width: 153px;
+}
+#cart-products .cart-card h3 {
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+}
+#cart-products .cart-card h4 {
+  font-weight: normal;
+  text-align: right;
+}
+
+.account-modal {
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+  width: 345px;
+  height: 615px;
+  position: absolute;
+  z-index: 9999;
+  background-color: #fff;
+  top: 100px;
+  right: 150px;
+}
+.account-modal .title-holder {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.account-modal .title-holder .close-button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.account-modal .title-holder h3 {
+  padding-bottom: 20px;
+}
+.account-modal .switch-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account-modal .signinswitch {
+  display: flex;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+}
+.account-modal .sign-in {
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.account-modal .sign-in .sign-in-input {
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+}
+.account-modal .sign-in input {
+  margin: 0 auto;
+}
+.account-modal .sign-up {
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.account-modal .sign-up .sign-in-input {
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+}
+.account-modal .sign-up input {
+  margin: 0 auto;
+}
+.account-modal .log-out-holder {
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.account-modal .log-out-holder #log-out-button {
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(59, 43, 47);
+  color: white;
+}
+.account-modal .keep-signed-in-holder {
+  margin-left: 30px;
+  display: flex;
+  align-self: flex-start;
+}
+.account-modal .keep-signed-in-holder label {
+  width: 400px;
+}
+.account-modal button {
+  width: 90%;
+}
+.account-modal .register-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.account-modal .register-buttons button {
+  border-radius: 30px;
+  margin-top: 20px;
+  height: 40px;
+  border: 2px solid rgb(210, 210, 210);
+  background-color: #fff;
+}
+.account-modal .login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 145px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(236, 233, 228);
+}
+.account-modal .signup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 145px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(236, 233, 228);
+}
+.account-modal .sign-in-button {
+  cursor: pointer;
+  height: 36px;
+  border-radius: 30px;
+  background-color: rgb(59, 43, 47);
+  color: white;
+}
+.account-modal .info-sign-in {
+  width: 75%;
+  height: 139px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(243, 243, 243);
+}
+
+/*# sourceMappingURL=styles.css.map */
